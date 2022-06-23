@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box ;
+}
+body {
+font-family: "open sans", sans-serif;
+font-size: 18px;
+}
+.Contenr{
+    margin: 20px auto;
+    width: 1200px;
+}
+.Contenr .Color-sw {
+list-style: none;
+margin-bottom: 20px;
+text-align: center;
+}
+.Contenr .Color-sw li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.Contenr .Color-sw li:first-child {
+background-color: brown;
+}
+.Contenr .Color-sw li:nth-child(2){
+    background-color: blue;
+}
+.Contenr .Color-sw li:nth-child(3){
+    background-color: rgb(42, 230, 4);
+}
+.Contenr .Color-sw li:nth-child(4){
+    background-color: rgb(216, 10, 137);
+}
+.Contenr h3{
+    color: brown;
+}
+.Contenr div{
+background-color: brown;
+padding: 20px;
+color: aliceblue;
+}
+.red .Contenr h3{
+    color: brown;
+}
+.red .Contenr div{
+ background-color: brown;
+padding: 20px;
+color: aliceblue;
+ }
+ .green .Contenr h3{
+    color:blue;
+ }
+ .green .Contenr div{
+     background-color: blue;
+     padding: 20px;
+     color: aliceblue;
+ }
+ .blace .Contenr h3{
+     color: rgb(42, 230, 4);
+ }
+ .blace .Contenr div{
+    background-color: rgb(42, 230, 4);
+    padding: 20px;
+    color: aliceblue;
+  }
+ .pulo .Contenr h3{
+    color:  rgb(216, 10, 137);
+ }
+.pulo .Contenr div{
+    background-color:  rgb(216, 10, 137);
+    padding: 20px;
+    color: aliceblue; 
+ }
